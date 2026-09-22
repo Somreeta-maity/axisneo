@@ -13,22 +13,28 @@ function App() {
         </div>
 
         <div className="nav-links">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
 
-          {/* Button leading to codeforces.html */}
+          <a href="#home">
+            Home
+          </a>
+
+          <a href="#coding">
+            Coding Platforms
+          </a>
+
           <a
             href="/codeforces.html"
             className="explore-btn"
           >
             Explore AxisNeo →
           </a>
+
         </div>
 
       </nav>
 
 
-      {/* Home Section */}
+      {/* Hero Section */}
       <section id="home" className="hero">
 
         <div className="hero-content">
@@ -38,11 +44,11 @@ function App() {
           </h1>
 
           <p>
-            Explore, learn and manage your digital resources
-            with AxisNeo.
+            Discover coding platforms, practice programming,
+            improve your problem-solving skills, and explore
+            new opportunities in technology.
           </p>
 
-          {/* Main button */}
           <a
             href="/codeforces.html"
             className="main-btn"
@@ -55,14 +61,134 @@ function App() {
       </section>
 
 
-      {/* About Section */}
-      <section id="about" className="about">
+      {/* Coding Platforms Section */}
+      <section id="coding" className="coding-section">
 
-        <h2>About AxisNeo</h2>
+        <h2>
+          Explore New Coding Platforms
+        </h2>
+
+        <p className="section-intro">
+          Coding platforms help developers practice programming,
+          improve problem-solving skills, participate in contests,
+          and prepare for technical interviews.
+        </p>
+
+
+        <div className="platform-container">
+
+
+          {/* Codeforces */}
+          <div className="platform-card">
+
+            <div className="platform-icon">
+              💻
+            </div>
+
+            <h3>
+              Codeforces
+            </h3>
+
+            <p>
+              A competitive programming platform where
+              developers can solve algorithmic problems,
+              participate in contests, and improve their
+              coding skills.
+            </p>
+
+          </div>
+
+
+          {/* LeetCode */}
+          <div className="platform-card">
+
+            <div className="platform-icon">
+              🧠
+            </div>
+
+            <h3>
+              LeetCode
+            </h3>
+
+            <p>
+              A popular platform for practicing data
+              structures and algorithms and preparing
+              for technical coding interviews.
+            </p>
+
+          </div>
+
+
+          {/* HackerRank */}
+          <div className="platform-card">
+
+            <div className="platform-icon">
+              🚀
+            </div>
+
+            <h3>
+              HackerRank
+            </h3>
+
+            <p>
+              Provides programming challenges and
+              skill-based exercises across multiple
+              programming languages and technical areas.
+            </p>
+
+          </div>
+
+
+          {/* GitHub */}
+          <div className="platform-card">
+
+            <div className="platform-icon">
+              🌐
+            </div>
+
+            <h3>
+              GitHub
+            </h3>
+
+            <p>
+              A platform for hosting code, collaborating
+              on projects, contributing to open-source
+              software, and building a developer portfolio.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        {/* Explore Button */}
+
+        <div className="explore-area">
+
+          <a
+            href="/codeforces.html"
+            className="main-btn"
+          >
+            Explore Coding Resources →
+          </a>
+
+        </div>
+
+      </section>
+
+
+      {/* About Section */}
+      <section className="about">
+
+        <h2>
+          About AxisNeo
+        </h2>
 
         <p>
-          AxisNeo is a platform designed to provide
-          useful digital tools and resources in one place.
+          AxisNeo brings useful technology resources
+          together in one place. Explore coding platforms,
+          practice programming, discover new technologies,
+          and continue developing your technical skills.
         </p>
 
       </section>
